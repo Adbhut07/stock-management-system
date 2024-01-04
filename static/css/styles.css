@@ -1,0 +1,244 @@
+body{
+  background-color: #101b2ede;
+}
+
+h1 {
+  color: #000;
+  margin-left: 30px;
+}
+h2 {
+  color: #000;
+  text-align: center;
+
+}
+
+.banner-area{
+  background-image: url("{% static 'images/abc.jpg' %}");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  top: 75px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  opacity: 70%;
+  text-align: center;
+  text-decoration: underline overline;
+  color: #000000;
+  font-size: 50px;
+  text-decoration-color: rgba(255, 0, 0, 0.952);
+  
+}
+
+.icon-bar {
+  width: 90px;
+  background-color: #555;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #38ACEC;
+}
+
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* STORE INSERT CSS */
+form { 
+margin: 0 auto; 
+width:500px;
+}
+input[type=text], select, textarea {
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=date], select, textarea {
+  width: 35%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+
+
+
+
+input[type=tel], select, textarea {
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1e90ff;
+}
+
+input[type=reset]:hover {
+  background-color: #1e90ff;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #e6ffff;
+  padding: 20px;
+  height: 600px;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.login-page {
+  background-color: #101b2ede;
+}
+
+.login-container {
+  border-radius: 10px;
+  background-color: #e6ffff;
+  padding: 20px;
+  height: 200px;
+  width: 300px;
+  margin-left: 300px;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

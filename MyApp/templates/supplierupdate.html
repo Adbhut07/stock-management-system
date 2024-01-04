@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Supplier Update</title>
+	{% load static %}
+	<link rel="stylesheet" href="{%static 'css/styles.css'%}" >
+</head>
+<body>
+	<h1>Supplier Update</h1>
+
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The navigation menu -->
+
+<div class="navbar">
+	
+<div class="icon-bar">
+  <a class="active" href="/index1/"><i class="fa fa-home"></i></a>
+</div>
+
+ 
+  <div class="dropdown">
+    <button class="dropbtn">Store
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/storeinsert/">Store Insert</a>
+      <a href="/storefind/">Store Find</a>
+      <a href="/storedelete/">Store Delete</a>
+      <a href="/storeupdate/">Store Update</a>
+    </div>
+  </div>
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Product Category
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/pcatinsert/">Pcat Insert</a>
+      <a href="/pcatfind/">Pcat Find</a>
+      <a href="/pcatdelete/">Pcat Delete</a>
+      <a href="/pcatupdate/">Pcat Update</a>
+    </div>
+  </div>
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Products
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/productinsert/">Products Insert</a>
+      <a href="/productfind/">Products Find</a>
+      <a href="/productdelete/">Products Delete</a>
+      <a href="/productupdate/">Products Update</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Supplier
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/supplierinsert/">Supplier Insert</a>
+      <a href="/supplierfind/">Supplier Find</a>
+      <a href="/supplierdelete/">Supplier Delete</a>
+      <a href="/supplierupdate/">Supplier Update</a>
+    </div>
+  </div>
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Stockin
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/stockininsert/">Stockin Insert</a>
+      <a href="/stockinfind/">Stockin Find</a>
+      <a href="/stockindelete/">Stockin Delete</a>
+      <a href="/stockinupdate/">Stockin Update</a>
+    </div>
+  </div>
+
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Customers
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/custinsert/">Customers Insert</a>
+      <a href="/custfind/">Customers Find</a>
+      <a href="/custdelete/">Customers Delete</a>
+      <a href="/custupdate/">Customers Update</a>
+    </div>
+  </div>
+
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Orders
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/ordersinsert/">Orders Insert</a>
+      <a href="/ordersfind/">Orders Find</a>
+      <a href="/ordersdelete/">Orders Delete</a>
+      <a href="/ordersupdate/">Orders Update</a>
+    </div>
+  </div>
+
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Bill
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/billinsert/">Bill Insert</a>
+      <a href="/billfind/">Bill Find</a>
+      <a href="/billdelete/">Bill Delete</a>
+      <a href="/billupdate/">Bill Update</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+	<form name="myf" action="/supupdate/" method="post">
+		Old Sup id   <input type="text" name="spid" required> <input type="submit" value="search"><br><br>
+		New Sup name   <input type="text" name="sname" required><br><br>
+		New Sup add   <input type="text" name="sadd" required><br><br>
+		New Phone   <input type="tel" name="sphone" required><br><br>
+		New Email   <input type="Email" name="semail" required><br><br>
+		<input type="submit" value="update">
+		<input type="reset" name="cancel">
+
+	</form>
+</div>
+
+</body>
+</html>
